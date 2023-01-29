@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
 
-    <title>Swiper в секції Details of our restaurant</title>
+    <title>Swiper в готовій секції Details of our restaurant</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="details-rest__thumb">
-                    <div class="swiper mySwiper details-rest__thumb-slide">
+                    <div class="swiper details-rest-mySwiper details-rest__thumb-slide">
 
                         <ul class="swiper-wrapper list details-rest__thumb-img">
                             <li class="swiper-slide details-rest__item-thumb">
@@ -114,7 +114,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
-      var swiper = new Swiper('.mySwiper', {
+      var swiper = new Swiper('.details-rest-mySwiper', {
         loop: false,
         // loop: true,
         navigation: {
