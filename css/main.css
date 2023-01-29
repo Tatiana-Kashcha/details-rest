@@ -246,15 +246,6 @@ button {
   }
 }
 
-.swiper-slide {
-  /* Center slide text vertically */
-}
-
-.swiper-slide img {
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
 /* Секція Details of our restaurant */
 .details-rest {
   padding-top: 24px;
@@ -485,4 +476,9 @@ button {
 
 .details-rest__btn-link {
   margin-bottom: 0;
+}
+
+.swiper-slide img {
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=main.css.map */
